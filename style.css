@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+   
+    gap:30px;
+   
+    
+}
+.col,.col-2,.col-3{
+    height: 50px;
+    background-color: rgb(175, 175, 202);
+    margin-bottom: 10px;
+}
+.col{
+    flex:1;
+}
+.col-2{
+    flex:2;
+}
+.col-3{
+    flex:3;
+}
